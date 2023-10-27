@@ -1,38 +1,35 @@
-# create-svelte
+# Svelte kit에서 appwrite를 이용하여 login 기능 구현
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## 기능
+1. 로그인
+2. 회원가입
+3. 로그아웃
+4. 로그인 세션 유지 (새로고침 해도 유지)
 
-## Creating a project
+## 오류 메세지
+1. 로그인 실패 시 오류 메세지 출력
+2. 회원가입 실패 시 오류 메세지 출력
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 알림
+1. 로그아웃 시
+2. 회원가입 성공 시
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## 결과 스크린샷
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### 로그인 화면
+<img width="741" alt="스크린샷 2023-10-28 오전 6 51 50" src="https://github.com/uomaep/login-appwrite/assets/114221785/115ff121-0aab-4aec-bec8-d9b59a424ef7">
 
-## Developing
+### 회원가입 화면
+<img width="626" alt="스크린샷 2023-10-28 오전 6 52 12" src="https://github.com/uomaep/login-appwrite/assets/114221785/cb782154-567c-4eb8-8ea6-649a2022843d">
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### 로그인 성공 시 메인화면
+<img width="673" alt="스크린샷 2023-10-28 오전 6 52 44" src="https://github.com/uomaep/login-appwrite/assets/114221785/74f2cd7a-2df2-4d5b-a620-0dc69617c549">
 
-```bash
-npm run dev
+### 로그아웃 시 알림메시지 출력
+<img width="676" alt="스크린샷 2023-10-28 오전 6 53 34" src="https://github.com/uomaep/login-appwrite/assets/114221785/68b3f5d3-9d8f-4da5-a2b1-1b7059df87d2">
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### 로그인 실패 시 오류메시지 출력
+<img width="627" alt="스크린샷 2023-10-28 오전 6 54 08" src="https://github.com/uomaep/login-appwrite/assets/114221785/af784b90-b869-4946-b289-1e2facad5687">
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+### 회원가입 실패 시 오류메시지 출력
+<img width="581" alt="스크린샷 2023-10-28 오전 6 54 44" src="https://github.com/uomaep/login-appwrite/assets/114221785/556378bf-be56-4cc5-b5a4-a0d6462db374">
